@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    user-select:none;
+    overflow:auto;
+}
+body{
+    font-family: helvetica;
+}
+.display {
+    background-color:#FFEADB;
+    padding-right: 30px;
+    
+    margin: 20px;
+    font-size:3em;
+    font-weight: bold;
+    border-radius:40px 40px 40px 40px;
+    border-radius: 49px;
+background: #e0e0e0;
+box-shadow: inset 24px 24px 48px #bebebe,
+            inset -24px -24px 48px #ffffff;
+}
+.kontainer-kolom{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin:0 auto;
+    text-align:right;
+    
+    padding: 20px;
+    
+    border-radius: 40px;
+    border-radius: 49px;
+    border-radius: 49px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  6px 6px 12px #bebebe,
+                -6px -6px 12px #ffffff;
+}
+.kontainer-baris{
+    display: flex;
+    margin-right:20px;
+    margin-left: 20px;
+}
+
+.button {
+    flex-basis: 25%;
+    
+    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#FFEADB;
+    text-align:center;
+    font-size:2em;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    margin: 20px;
+}
+.equals{
+    flex-basis:50%
+}
+.button:hover{
+    font-weight:bolder;
+    
+}    
+.history{
+    text-align: center;
+    border: 1px;
+    margin: 50px;
+    
+    padding: 40px;
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+    overflow: scroll;
+            
+}
+table {
+    width: 100%;
+    
+    padding: 20px;
+    
+}
+
+
+
+
+
+.button:active{
+border-radius: 50px;
+background: #e0e0e0;
+box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
+}
+
+#judul{
+    text-align:center;
+    color:darkslategray;
+    font-size:4em;
+
+}
+@media screen and (max-width:1000px){
+    .button {
+        padding: 10px;
+    }
+    .history {
+        width: 100%;
+    }
+}
